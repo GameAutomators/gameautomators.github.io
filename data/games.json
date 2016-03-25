@@ -1,0 +1,39 @@
+{
+    "games":[
+        {
+            "name": "Ready Steady Bang",
+            "image": "img/ready.jpg",
+            "link": "http://gameautomators.com/book/Examples/ready_steady_bang.html"
+        },
+        {
+            "name": "Piano Tiles",
+            "image": "img/piano1.png",
+            "link": "http://gameautomators.com/book/Examples/piano_tiles.html"
+        },
+        {
+            "name": "3D-Bowling",
+            "image": "img/bowling.jpg",
+            "link": "http://gameautomators.com/book/Examples/3d_bowling.html"
+        },
+        {
+            "name": "Playing The Song",
+            "image": "img/song.png",
+            "link": "http://gameautomators.com/book/Examples/playing_the_song.html"
+        },
+        {
+            "name": "Tic Tac Toe",
+            "image": "img/ttt.png",
+            "link": "http://gameautomators.com/book/Examples/tic_tac_toe.html"
+        },
+        {
+            "name": "Find The Difference",
+            "image": "img/ftd4.png",
+            "link": "http://gameautomators.com/book/Examples/find_the_difference.html"
+        },
+        {
+            "name": "Stick Hero",
+            "image": "img/stick.jpg",
+            "link": "http://gameautomators.com/book/Examples/stick_hero.html"
+        }
+    ]
+}
