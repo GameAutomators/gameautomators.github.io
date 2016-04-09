@@ -8,23 +8,21 @@
     <meta content="" name="author">
     <title>Game Automators | Making Learning Easy via Games</title>
 
-    
+    <link rel="icon" href="img/favicon.png">
     <!-- Bootstrap Core CSS -->
     <link href="css/bootstrap.min.css" rel="stylesheet"><!-- Custom CSS -->
     <link href="css/landing-page.css" rel="stylesheet"><!-- Custom Fonts -->
-    <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type=
-    "text/css">
+    <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="css/style.css"> <!-- Custom CSS -->
     <!--Font-->
     <link href='https://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
-   	
 
-    
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
     <!--[if lt IE 9]>
         <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
         <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
-        <![endif]-->
+    <![endif]-->
 </head>
 <body>
     <!-- Navigation -->
@@ -100,12 +98,6 @@
         </div><!-- /.container -->
     </div><!-- /.intro-header -->
 
-
-
-
-
-
-
     <!-- Services Section -->
     <section id="services">
          <div class="container " style="padding-top: 100px;">
@@ -121,7 +113,7 @@
                     <h4 class="service-heading">What's Game Automators?</h4>
                     <p class="text-muted">A team that aims to make learning fun by building algorithms and robots that can solve mobile phone games using concepts of electronics, image
                         processing and machine learning.</p>
-                        
+
                 </div>
                 <div class="col-md-4">
                     <span class="fa-stack fa-5x">
@@ -156,78 +148,9 @@
                     <h1>List of Games Automated</h1><br>
                     <br>
                 </div>
-                <div class="row">
-                    <div class="col-sm-3 text-center"><img alt="" class=
-                    "img-circle" height="200" src="img/ready.jpg" width=
-                    "200"></div>
-                    <div class="col-sm-3 text-center"><img alt="" class=
-                    "img-circle" height="200" src="img/piano1.png" width=
-                    "200"></div>
-                    <div class="col-sm-3 text-center"><img alt="" class=
-                    "img-circle" height="200" src="img/bowling.jpg" width=
-                    "200"></div>
-                    <div class="col-sm-3 text-center"><img alt="" class=
-                    "img-circle" height="200" src="img/song.png" width=
-                    "200"></div>
-                </div>
-                <div class="row">
-                    <div class="col-sm-3 text-center" style="">
-                        <a href=
-                        "http://gameautomators.github.io/book/Examples/ready_steady_bang.html"
-                        target="_blank">
-                        <h3>Ready Steady Bang</h3></a>
-                    </div>
-                    <div class="col-sm-3 text-center">
-                        <a href=
-                        "http://gameautomators.github.io/book/Examples/piano_tiles.html"
-                        target="_blank">
-                        <h3>Piano Tiles</h3></a>
-                    </div>
-                    <div class="col-sm-3 text-center">
-                        <a href=
-                        "http://gameautomators.github.io/book/Examples/3d_bowling.html"
-                        target="_blank">
-                        <h3>3D-Bowling</h3></a>
-                    </div>
-                    <div class="col-sm-3 text-center">
-                        <a href=
-                        "http://gameautomators.github.io/book/Examples/playing_the_song.html"
-                        target="_blank">
-                        <h3>Playing The Song</h3></a>
-                    </div>
-                </div><br>
-                <br>
-                <div class="row images-center">
-                    <div class="col-sm-4 text-center"><img alt="" class=
-                    "img-circle" height="200" src="img/ttt.png" width=
-                    "200"></div>
-                    <div class="col-sm-4 text-center"><img alt="" class=
-                    "img-circle" height="200" src="img/ftd4.png" width=
-                    "200"></div>
-                    <div class="col-sm-4 text-center"><img alt="" class=
-                    "img-circle" height="200" src="img/stick.jpg" width=
-                    "200"></div>
-                </div>
-                <div class="row images-center">
-                    <div class="col-sm-4 text-center">
-                        <a href=
-                        "http://gameautomators.github.io/book/Examples/tic_tac_toe.html"
-                        target="_blank">
-                        <h3>Tic Tac Toe</h3></a>
-                    </div>
-                    <div class="col-sm-4 text-center">
-                        <a href=
-                        "http://gameautomators.github.io/book/Examples/find_the_difference.html"
-                        target="_blank">
-                        <h3>Find The Differences</h3></a>
-                    </div>
-                    <div class="col-sm-4 text-center">
-                        <a href=
-                        "http://gameautomators.github.io/book/Examples/stick_hero.html"
-                        target="_blank">
-                        <h3>Stick Hero</h3></a>
-                    </div>
-                </div>
+            </div>
+            <div class="row" style="padding-top: 30px" id="games">
+                <!-- games added here dynamically -->
             </div>
         </div>
     </section><br>
@@ -260,161 +183,21 @@
             </div>
         </div>
     </section>
+    <!-- Contributors -->
     <section id="Contributors">
-        <div class="container" style="padding-top: 100px;">
+        <div class="container" style="padding-top: 100px">
             <div class="row">
                 <div class="col-lg-12 text-center">
                     <h1>Contributors</h1>
+                    <br>
                 </div>
             </div>
-        </div>
+            <div class="row" id="contrib">
+                <!-- contributors added here dynamically -->
+            </div>
     </section><br>
-    <section id="Contributors">
-        <div class="container" style="padding-top: 30px;">
-            <div class="row">
-                <div class="col-sm-2 text-center"><img alt="" class=
-                "img-circle" height="150" src="img/surya.jpg" width=
-                "150"></div>
-                <div class="col-sm-2 text-center"><img alt="" class=
-                "img-circle" height="150" src="img/suddheesh.jpg" width=
-                "150"></div>
-                <div class="col-sm-2 text-center"><img alt="" class=
-                "img-circle" height="150" src="img/naveen.jpg" width=
-                "150"></div>
-                <div class="col-sm-2 text-center"><img alt="" class=
-                "img-circle" height="150" src="img/aarti.jpg" width=
-                "150"></div>
-                <div class="col-sm-2 text-center"><img alt="" class=
-                "img-circle" height="150" src="img/agrawal.jpg" width=
-                "150"></div>
-                <div class="col-sm-2 text-center"><img alt="" class=
-                "img-circle" height="150" src="img/spandan.jpg" width=
-                "150"></div>
-            </div>
-        </div>
-    </section>
-    <section id="list1">
-        <div class="container">
-            <div class="row">
-                <div class="col-sm-2 text-center">
-                    <h4>Surya Penmetsa</h4>
-                </div>
-                <div class="col-sm-2 text-center">
-                    <h4>Sudheesh Singanamalla</h4>
-                </div>
-                <div class="col-sm-2 text-center">
-                    <h4>Naveen Indala</h4>
-                </div>
-                <div class="col-sm-2 text-center">
-                    <h4>Aarti Barai</h4>
-                </div>
-                <div class="col-sm-2 text-center">
-                    <h4>Piyush Agarwal</h4>
-                </div>
-                <div class="col-sm-2 text-center">
-                    <h4>Spandan Pandey</h4>
-                </div>
-            </div>
-        </div>
-    </section><br>
-    <section id="Contributors">
-        <div class="container">
-            <div class="row">
-                <div class="col-sm-2 text-center"><img alt="" class=
-                "img-circle" height="150" src="img/aman.jpg" width="150"></div>
-                <div class="col-sm-2 text-center"><img alt="" class=
-                "img-circle" height="150" src="img/devendra.jpg" width=
-                "150"></div>
-                <div class="col-sm-2 text-center"><img alt="" class=
-                "img-circle" height="150" src="img/nisha.jpg" width=
-                "150"></div>
-                <div class="col-sm-2 text-center"><img alt="" class=
-                "img-circle" height="150" src="img/kashyap.jpg" width=
-                "150"></div>
-                <div class="col-sm-2 text-center"><img alt="" class=
-                "img-circle" height="150" src="img/male.png" width=
-                "150"></div>
-                <div class="col-sm-2 text-center"><img alt="" class=
-                "img-circle" height="150" src="img/female.png" width=
-                "150"></div>
-            </div>
-        </div>
-    </section>
-    <section id="list1">
-        <div class="container">
-            <div class="row">
-                <div class="col-sm-2 text-center">
-                    <h4>Aman Bhargava</h4>
-                </div>
-                <div class="col-sm-2 text-center">
-                    <h4>Devendra Patil</h4>
-                </div>
-                <div class="col-sm-2 text-center">
-                    <h4>Nisha Jacob</h4>
-                </div>
-                <div class="col-sm-2 text-center">
-                    <h4>Piyush Kashyap</h4>
-                </div>
-                <div class="col-sm-2 text-center">
-                    <h4>Vamsi</h4>
-                </div>
-                <div class="col-sm-2 text-center">
-                    <h4>Nishi</h4>
-                </div>
-            </div>
-        </div>
-    </section><br>
-    <section id="Contributors">
-        <div class="container">
-            <div class="row">
-                <div class="col-sm-2 text-center"><img alt="" class=
-                "img-circle" height="150" src="img/shivani.jpg" width=
-                "150"></div>
-                <div class="col-sm-2 text-center"><img alt="" class=
-                "img-circle" height="150" src="img/female.png" width=
-                "150"></div>
-                <div class="col-sm-2 text-center"><img alt="" class=
-                "img-circle" height="150" src="img/male.png" width=
-                "150"></div>
-                <div class="col-sm-2 text-center"><img alt="" class=
-                "img-circle" height="150" src="img/monica.jpg" width=
-                "150"></div>
-                <div class="col-sm-2 text-center"><img alt="" class=
-                "img-circle" height="150" src="img/female.png" width=
-                "150"></div>
-                <div class="col-sm-2 text-center"><img alt="" class=
-                "img-circle" height="150" src="img/female.png" width=
-                "150"></div>
-            </div>
-        </div>
-    </section>
-    <section id="list1">
-        <div class="container">
-            <div class="row">
-                <div class="col-sm-2 text-center">
-                    <h4>Shivani Shukla</h4>
-                </div>
-                <div class="col-sm-2 text-center">
-                    <h4>Aroma</h4>
-                </div>
-                <div class="col-sm-2 text-center">
-                    <h4>Karthik</h4>
-                </div>
-                <div class="col-sm-2 text-center">
-                    <h4>Monica</h4>
-                </div>
-                <div class="col-sm-2 text-center">
-                    <h4>Prathiba</h4>
-                </div>
-                <div class="col-sm-2 text-center">
-                    <h4>Satya</h4>
-                </div>
-            </div>
-        </div>
-    </section><br>
-    <!-- /.intro-header -->
      <!-- Page Content -->
-    
+
     <a id="wallofthanks" name="wallofthanks"></a>
     <div class="content-section-a">
         <div class="container " style="padding-top: 100px; padding-bottom: 50px;">
@@ -447,7 +230,7 @@
             </div>
         </div>
     </section><br>
-    
+
 
     <a id="video" name="video"></a>
     <div class="responsive-video">
@@ -515,13 +298,15 @@
         </div>
 
 
-    </footer><!-- jQuery -->
-    <script src="js/jquery.js">
-    </script> 
-    <script src="js/smooth-scroll.js">
-    </script> <!-- Bootstrap Core JavaScript -->
-     
-    <script src="js/bootstrap.min.js">
-    </script>
+    </footer>
+    <!-- jQuery -->
+    <script src="js/jquery.js"></script>
+    <script src="js/smooth-scroll.js"></script>
+    <!-- Google Analytics -->
+    <script src="js/ga.js"></script>
+    <!-- Bootstrap Core JavaScript -->
+    <script src="js/bootstrap.min.js"></script>
+    <!-- Custom Scripts -->
+    <script type="text/javascript" src="js/custom.js"></script>
 </body>
 </html>

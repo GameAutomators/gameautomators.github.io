@@ -1,0 +1,76 @@
+{
+    "contributors": [
+            {
+                "name": "Surya Penmetsa",
+                "avatar": "img/surya.jpg"
+            },
+            {
+                "name": "Sudheesh Singanmalla",
+                "avatar": "img/suddheesh.jpg"
+            },
+            {
+                "name": "Naveen Indala",
+                "avatar": "img/naveen.jpg"
+            },
+            {
+                "name": "Aarti Barai",
+                "avatar": "img/aarti.jpg"
+            },
+            {
+                "name": "Piyush Agarwal",
+                "avatar": "img/agrawal.jpg"
+            },
+            {
+                "name": "Spandan Pandey",
+                "avatar": "img/spandan.jpg"
+            },
+            {
+                "name": "Aman Bhargava",
+                "avatar": "img/aman.jpg"
+            },
+            {
+                "name": "Devendra Patil",
+                "avatar": "img/devendra.jpg"
+            },
+            {
+                "name": "Nisha Jacob",
+                "avatar": "img/nisha.jpg"
+            },
+            {
+                "name": "Piyush Kashyap",
+                "avatar": "img/kashyap.jpg"
+            },
+            {
+                "name": "Vamsi",
+                "avatar": "img/male.png"
+            },
+            {
+                "name": "Nishi",
+                "avatar": "img/female.png"
+            },
+            {
+                "name": "Shivani Shukla",
+                "avatar": "img/shivani.jpg"
+            },
+            {
+                "name": "Aroma",
+                "avatar": "img/female.png"
+            },
+            {
+                "name": "Karthik",
+                "avatar": "img/male.png"
+            },
+            {
+                "name": "Monica",
+                "avatar": "img/monica.jpg"
+            },
+            {
+                "name": "Pratibha",
+                "avatar": "img/female.png"
+            },
+            {
+                "name": "Satya",
+                "avatar": "img/female.png"
+            }
+    ]
+}

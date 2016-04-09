@@ -1,0 +1,57 @@
+.card {
+    padding-top: 20px;
+    margin: 10px;
+    background-color: #ffffff;
+    border-top-width: 0;
+    border-bottom-width: 2px;
+    -webkit-border-radius: 3px;
+     -moz-border-radius: 3px;
+          border-radius: 3px;
+    -webkit-box-shadow: none;
+     -moz-box-shadow: none;
+          box-shadow: none;
+    -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+}
+.card.games {
+    position: relative;
+    display: inline-block;
+    padding-top: 0;
+    margin-left: 20px;
+    overflow: hidden;
+    vertical-align: top;
+}
+.card.people {
+    border: 1px solid #d8d8d8;
+    position: relative;
+    display: inline-block;
+    padding-top: 0;
+    margin-left: 20px;
+    overflow: hidden;
+    vertical-align: top;
+}
+
+.people .title {
+    display: block;
+    min-height: 38px;
+    text-align: center;
+    margin: 8px 14px 8px 14px;
+    overflow: hidden;
+    font-size: 16px;
+    font-weight: bold;
+    line-height: 18px;
+    color: #404040;
+}
+
+.games .title {
+    display: block;
+    min-height: 45px;
+    text-align: center;
+    margin: 20px 10px 0px 10px;
+    overflow: hidden;
+    font-size: 20px;
+    font-weight: bold;
+    line-height: 18px;
+    color: #404040;
+}
