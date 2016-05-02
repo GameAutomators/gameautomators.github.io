@@ -1,0 +1,28 @@
+{
+    "contributors": [
+            {
+                "name": "Surya Penmetsa",
+                "avatar": "img/surya.jpg"
+            },
+            {
+                "name": "Sudheesh Singanmalla",
+                "avatar": "img/suddheesh.jpg"
+            },
+            {
+                "name": "Piyush Kashyap",
+                "avatar": "img/kashyap.jpg"
+            },
+            {
+                "name": "Vamsi UCSS",
+                "avatar": "img/male.png"
+            },
+            {
+                "name": "Nishi",
+                "avatar": "img/female.png"
+            },
+            {
+                "name": "Rajmani Arya",
+                "avatar": "img/arya.jpg"
+            }
+    ]
+}

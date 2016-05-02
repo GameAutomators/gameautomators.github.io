@@ -35,6 +35,82 @@
             {
                 "name": "Piyush Agarwal",
                 "avatar": "img/agrawal.jpg"
+            },
+            {
+                "name": "Aarti Barai",
+                "avatar": "img/female.png"
+            },
+            {
+                "name": "Sriram Kovela",
+                "avatar": "img/male.png"
+            },
+            {
+                "name": "Bharath Kumar",
+                "avatar": "img/male.png"
+            },
+            {
+                "name": "Vinay Kant",
+                "avatar": "img/male.png"
+            },
+            {
+                "name": "Aman Bhargava",
+                "avatar": "img/male.png"
+            },
+            {
+                "name": "Nisha Jacob",
+                "avatar": "img/female.png"
+            },
+            {
+                "name": "Satya Kesav",
+                "avatar": "img/male.png"
+            },
+            {
+                "name": "Anirudh Deshpande",
+                "avatar": "img/male.png"
+            },
+            {
+                "name": "Milind Sheth",
+                "avatar": "img/male.png"
+            },
+            {
+                "name": "Sreetam Das",
+                "avatar": "img/male.png"
+            },
+            {
+                "name": "Shashank Reddy",
+                "avatar": "img/male.png"
+            },
+            {
+                "name": "Milan Chatterjee",
+                "avatar": "img/male.png"
+            },
+            {
+                "name": "Chetan Rathore",
+                "avatar": "img/male.png"
+            },
+            {
+                "name": "Surendra Gurjar",
+                "avatar": "img/male.png"
+            },
+            {
+                "name": "Shubhi Saxena",
+                "avatar": "img/male.png"
+            },
+            {
+                "name": "Shivani Shukla",
+                "avatar": "img/male.png"
+            },
+            {
+                "name": "Devendra Patil",
+                "avatar": "img/male.png"
+            },
+            {
+                "name": "Spandan Pandey",
+                "avatar": "img/male.png"
+            },
+            {
+                "name": "Aroma Rodrigues",
+                "avatar": "img/female.png"
             }
     ]
 }
