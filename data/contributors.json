@@ -13,35 +13,11 @@
                 "avatar": "img/naveen.jpg"
             },
             {
-                "name": "Aarti Barai",
-                "avatar": "img/aarti.jpg"
-            },
-            {
-                "name": "Piyush Agarwal",
-                "avatar": "img/agrawal.jpg"
-            },
-            {
-                "name": "Spandan Pandey",
-                "avatar": "img/spandan.jpg"
-            },
-            {
-                "name": "Aman Bhargava",
-                "avatar": "img/aman.jpg"
-            },
-            {
-                "name": "Devendra Patil",
-                "avatar": "img/devendra.jpg"
-            },
-            {
-                "name": "Nisha Jacob",
-                "avatar": "img/nisha.jpg"
-            },
-            {
                 "name": "Piyush Kashyap",
                 "avatar": "img/kashyap.jpg"
             },
             {
-                "name": "Vamsi",
+                "name": "Vamsi UCSS",
                 "avatar": "img/male.png"
             },
             {
@@ -49,27 +25,91 @@
                 "avatar": "img/female.png"
             },
             {
-                "name": "Shivani Shukla",
-                "avatar": "img/shivani.jpg"
-            },
-            {
-                "name": "Aroma",
-                "avatar": "img/female.png"
-            },
-            {
-                "name": "Karthik",
+                "name": "Karthik Shathirii",
                 "avatar": "img/male.png"
             },
             {
-                "name": "Monica",
-                "avatar": "img/monica.jpg"
+                "name": "Rajmani Arya",
+                "avatar": "img/arya.jpg"
             },
             {
-                "name": "Pratibha",
+                "name": "Piyush Agarwal",
+                "avatar": "img/agrawal.jpg"
+            },
+            {
+                "name": "Aarti Barai",
                 "avatar": "img/female.png"
             },
             {
-                "name": "Satya",
+                "name": "Sriram Kovela",
+                "avatar": "img/male.png"
+            },
+            {
+                "name": "Bharath Kumar",
+                "avatar": "img/male.png"
+            },
+            {
+                "name": "Vinay Kant",
+                "avatar": "img/male.png"
+            },
+            {
+                "name": "Aman Bhargava",
+                "avatar": "img/male.png"
+            },
+            {
+                "name": "Nisha Jacob",
+                "avatar": "img/female.png"
+            },
+            {
+                "name": "Satya Kesav",
+                "avatar": "img/male.png"
+            },
+            {
+                "name": "Anirudh Deshpande",
+                "avatar": "img/male.png"
+            },
+            {
+                "name": "Milind Sheth",
+                "avatar": "img/male.png"
+            },
+            {
+                "name": "Sreetam Das",
+                "avatar": "img/male.png"
+            },
+            {
+                "name": "Shashank Reddy",
+                "avatar": "img/male.png"
+            },
+            {
+                "name": "Milan Chatterjee",
+                "avatar": "img/male.png"
+            },
+            {
+                "name": "Chetan Rathore",
+                "avatar": "img/male.png"
+            },
+            {
+                "name": "Surendra Gurjar",
+                "avatar": "img/male.png"
+            },
+            {
+                "name": "Shubhi Saxena",
+                "avatar": "img/male.png"
+            },
+            {
+                "name": "Shivani Shukla",
+                "avatar": "img/male.png"
+            },
+            {
+                "name": "Devendra Patil",
+                "avatar": "img/male.png"
+            },
+            {
+                "name": "Spandan Pandey",
+                "avatar": "img/male.png"
+            },
+            {
+                "name": "Aroma Rodrigues",
                 "avatar": "img/female.png"
             }
     ]

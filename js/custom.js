@@ -6,7 +6,7 @@
         async: true,
         success: function(dg){
             $.ajax({
-                url: 'data/contributors.json',
+                url: 'data/contributors_short.json',
                 dataType: 'json',
                 async: true,
                 success: function(dc) {
@@ -20,18 +20,31 @@
                         var _tmp = '<div class="col-xs-6 col-sm-3 col-md-2"><div class="card people"><img class="img-rounded" width="150" height="150" src="'+item.avatar+'" alt=""/><div class="title"><a href="#">'+item.name+'</a></div></div></div>';
                         $('#contrib').append(_tmp);
                     });
+                    /* Adding all contributors to contributors.html */
+                    $.ajax({
+                        url: 'data/contributors.json',
+                        dataType: 'json',
+                        async: true,
+                        success: function(d1){
+                            $.each(d1.contributors, function(index, item) {
+                                var _tmp = '<div class="col-xs-6 col-sm-3 col-md-2"><div class="card people"><img class="img-rounded" width="150" height="150" src="'+item.avatar+'" alt=""/><div class="title"><a href="#">'+item.name+'</a></div></div></div>';
+                                $('#contrib_full').append(_tmp);
+                            });
+                        },
+                        error: function(d2) {}
+                    });
                 },
                 error: function(ec) {
                     /* Error message is added if ajax fails */
-                    $('#games').append('<div class="alert alert-warning"> Sorry couldn\'t load <strong>Games.</strong></div>');
-                    $('#contrib').append('<div class="alert alert-warning"> Sorry couldn\'t load <strong>Contributors.</strong></div>');
+                    $('#games').append('<div class="alert alert-warning"> Sorry couldn\'t load <strong>games.</strong></div>');
+                    $('#contrib').append('<div class="alert alert-warning"> Sorry couldn\'t load <strong>contributors.</strong></div>');
                 }
             });
         },
         error: function(eg) {
             /* Error message is added if ajax fails */
-            $('#games').append('<div class="alert alert-warning"> Sorry couldn\'t load <strong>Games.</strong></div>');
-            $('#contrib').append('<div class="alert alert-warning"> Sorry couldn\'t load <strong>Contributors.</strong></div>');
+            $('#games').append('<div class="alert alert-warning"> Sorry couldn\'t load <strong>games.</strong></div>');
+            $('#contrib').append('<div class="alert alert-warning"> Sorry couldn\'t load <strong>contributors.</strong></div>');
         }
     });
 })(jQuery);
